@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Обзор HolyJS Moscow`19 — Kaspersky</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="shower/themes/ribbon/styles/styles.css">
+    <style>
+        .shower {
+            --slide-ratio: calc(16 / 9);
+        }
+    </style>
+</head>
+<body class="shower list">
+
+    <style>
+        .cover--right {
+            top: auto;
+            left: auto;
+            right: 0px;
+            bottom: 0px;
+            transform: none;
+        }
+
+        .cover--medium {
+            max-width: 60%;
+            max-height: 60%;
+        }
+
+        .cover--small {
+            max-width: 45%;
+            max-height: 45%;
+        }
+
+        .cover--extra {
+            max-width: none;
+            max-height: none;
+            min-width: 100%;
+            min-height: 100%;
+        }
+    </style>
+
+    <header class="caption">
+        <h1>Обзор HolyJS Moscow`19</h1>
+        <p>Kaspersky</p>
+    </header>
+
+    <section class="slide" id="cover">
+        <h2>Обзор HolyJS Moscow`19</h2>
+        <figure>
+            <img class="cover cover--extra" src="pictures/holyjs-piter-19.jpg" alt="HolyJS Piter`19">
+        </figure>
+        <style>
+            #cover h2 {
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                width: 100%;
+                line-height: 120%;
+                text-align: center;
+                font-size: 84px;
+                background: #007360;
+                color: white;
+                margin: 0;
+                /* mix-blend-mode: multiply; */
+                padding: 10px 0;
+                box-sizing: border-box;
+            }
+
+            #cover:after {
+                display: none;
+            }
+        </style>
+    </section>
+
+    <section class="slide">
+        <h2>Интро 👨‍👨‍👧‍👧</h2>
+        <p>Павел Востриков, Software Architect @ Kaspersky.</p>
+        <p>
+            <a href="mailto:pavel.vostrikov@kaspersky.com">pavel.vostrikov@kaspersky.com</a><br/>
+            <a href="https://twitter.com/vos3k">twitter.com/vos3k</a><br />
+            <a href="https://t.me/vos3k">t.me/vos3k</a><br />
+            <a href="https://github.com/vostrik">github.com/vostrik</a>
+        </p>
+        <figure>
+            <img class="cover cover--right cover--medium" src="illustrations/intro.png" />
+        </figure>
+    </section>
+
+    <section class="slide">
+        <h2>Премьера дублированного фильма «GraphQL: The Documentary»</h2>
+        <p>
+          GraphQL: The Documentary снимался в течение двух месяцев в Сан-Франциско и Берлине.
+        </p>
+        <p>
+          При поддержке платформы Honeypot.io
+        </p>
+    </section>
+
+    <section class="slide">
+        <h2>End to end testing a world of web, mobile & desktop apps</h2>
+        <p>Mathieu Henri, Microsoft</p>
+        <ol>
+            <li class="next">Midgard</li>
+            <li class="next"><a href="https://www.npmjs.com/package/screenshots-diff">https://www.npmjs.com/package/screenshots-diff</a></li>
+            <li class="next"><a href="https://applitools.com/">Intelligent Functional and Visual Testing Through Visual AI</a></li>
+        </ol>
+    </section>
+
+    <section class="slide">
+        <h2>CSS definition syntax</h2>
+        <p>Роман Дворнов, <s>Avito</s> Wrike</p>
+        <ol>
+            <li class="next">Value definition syntax</li>
+            <li class="next">BNF</li>
+            <li class="next"><a href="https://github.com/css/csso">CSS minifier with structural optimizations</a>></li>
+        </ol>
+        <figure>
+            <img class="cover cover--right cover--small" src="illustrations/solutions.png" />
+        </figure>
+    </section>
+
+    <section class="slide">
+        <h2>Resilient Component Libraries with React</h2>
+        <p>Андрей Оконечников, Component-Driven</p>
+        <ul>
+            <li class="next">Dynamic moqups</li>
+            <li class="next">Design tokens</li>
+            <li class="next"><a href="https://www.npmjs.com/package/styled-system">https://www.npmjs.com/package/styled-system</a></li>
+            <li class="next"><a href="https://www.npmjs.com/package/react-styleguidist">https://www.npmjs.com/package/react-styleguidist</a></li>
+        </ul>
+    </section>
+
+    <section class="slide">
+        <h2>JavaScript на службе у теоретической информатики</h2>
+        <p>Виталий Брагилевский, JetBrains</p>
+        <ul>
+            <li class="next"><a href="https://www.ozon.ru/context/detail/id/27358356/">История языков программирования</a>></li>
+            <li class="next">Теория вычислений</li>
+            <li class="next">Зачем это нужно?</li>
+        </ul>
+    </section>
+
+
+
+    <section class="slide">
+        <h2>Спасибо!</h2>
+        <div class="columns two">
+            <p>
+                Павел Востриков: <a href="mailto:pavel.vostrikov@kaspersky.com">pavel.vostrikov@kaspersky.com</a>
+                <a href="https://twitter.com/vos3k">twitter.com/vos3k</a><br />
+                <a href="https://github.com/vostrik">github.com/vostrik</a><br />
+                <a href="https://t.me/vos3k">t.me/vos3k</a>
+            </p>
+        </div>
+        <figure>
+            <img class="cover cover--right cover--small"
+                    src="illustrations/relax.png" />
+        </figure>
+    </section>
+
+    <footer class="badge">
+        <a href="https://github.com/shower/shower">Powered by Shower</a>
+    </footer>
+
+    <div class="progress"></div>
+
+    <script src="shower/shower.min.js"></script>
+    <!-- Copyright © 3000 Yours Truly, Famous Inc. -->
+
+</body>
+</html>
